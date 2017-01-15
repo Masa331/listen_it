@@ -1,10 +1,9 @@
 <div class="row">
-  <div class="col-sm-12">
+  <div class="col-sm-12 search-bar">
     <form>
       <div class="form-group">
-        <input type="text" class="form-control">
+        <input type="text" class="form-control" placeholder="Search by file name, type, etc..">
       </div>
-
     </form>
   </div>
 </div>
@@ -13,16 +12,10 @@
   <div class="col-sm-12">
     <table class="table">
       <tbody>
-        <tr>
-          <th colspan="3"><%= link_to 'Upload', new_document_path %></th>
-        </tr>
-
         <% @documents.each do |document| %>
           <tr>
             <th>
-              <%= document.id %> - 
-              <%= document.title %> - 
-              <%= link_to 'Play', '#' %>
+              <%= document.title %>
             </th>
           </tr>
         <% end %>
@@ -30,3 +23,8 @@
     </table>
   </div>
 </div>
+
+<script type="text/javascript" charset="utf-8">
+  var node = document.getElementById('document-index-elm-container');
+  var app = Elm.DocumentIndex.embed(node)
+</script>
