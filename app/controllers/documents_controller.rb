@@ -1,8 +1,16 @@
 class DocumentsController < ApplicationController
   def new
+    @document = Document.new
   end
 
   def create
+    @document = Document.new(permitted_params)
+
+    if @document.save
+      redirect_to documents_path
+    else
+      render :new
+    end
   end
 
   def index
@@ -16,5 +24,11 @@ class DocumentsController < ApplicationController
   end
 
   def update
+  end
+
+  private
+
+  def permitted_params
+    params.require(:document).permit(:file)
   end
 end

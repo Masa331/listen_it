@@ -1,2 +1,11 @@
-<h1>Documents#new</h1>
-<p>Find me in app/views/documents/new.html.erb</p>
+<h1>Upload new file</h1>
+
+<%= form_for(@document) do |f| %>
+  <div class="form-group">
+    <%= f.label :file %>
+
+    <%= f.file_field :file, class: 'form-control-file' %>
+  </div>
+
+  <%= f.submit %>
+<% end %>
