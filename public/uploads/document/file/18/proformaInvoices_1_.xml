@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dat:dataPack id="fa001" ico="04565398" application="StwTest" version="2.0" note="Import" xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd">
+<dat:dataPackItem id="2016000205" version="2.0">
+    <inv:invoice version="2.0">
+        <inv:invoiceHeader>
+            <inv:invoiceType>issuedAdvanceInvoice</inv:invoiceType>
+            <inv:number>
+                <typ:numberRequested>2016000205</typ:numberRequested>
+            </inv:number>
+                            <inv:paymentType>
+                    <typ:paymentType>draft</typ:paymentType>
+                </inv:paymentType>
+                        <inv:numberOrder></inv:numberOrder>
+            <inv:symVar>2016000205</inv:symVar>
+            <inv:date>2016-10-04</inv:date>
+                        <inv:dateDue>2016-10-19</inv:dateDue>
+            <inv:partnerIdentity>
+                <typ:address>
+                    <typ:company>Šárka Čáňová</typ:company>
+                    <typ:name>Mateřská škola Klimkovice,...</typ:name>
+                    <typ:city>Klimkovice</typ:city>
+                    <typ:street>28. října</typ:street>
+                    <typ:zip>74283</typ:zip>
+                    <typ:country>
+                        <typ:ids>CZE</typ:ids>
+                    </typ:country>
+                    <typ:ico>70986703</typ:ico>
+                    <typ:dic></typ:dic>
+                </typ:address>
+                            </inv:partnerIdentity>
+                    </inv:invoiceHeader>
+                                <inv:invoiceDetail>
+                                    <inv:invoiceItem>
+                        <inv:text>Akční balíček v hodnotě 6 500 Kč.</inv:text>
+                        <inv:quantity>1</inv:quantity>
+                        <inv:unit>ks</inv:unit>
+                        <inv:payVAT>true</inv:payVAT>
+                                                                        <inv:homeCurrency>
+                                                            <typ:unitPrice>4900</typ:unitPrice>
+                                <typ:price>4900</typ:price>
+                                                    </inv:homeCurrency>
+                                                    <inv:stockItem>
+                                                                <typ:stockItem>
+                                    <typ:ids>00005</typ:ids>
+                                </typ:stockItem>
+                            </inv:stockItem>
+                            <inv:code>00005</inv:code>
+                                            </inv:invoiceItem>
+                            </inv:invoiceDetail>
+                <inv:invoiceSummary>
+            <inv:roundingDocument>math2one</inv:roundingDocument>
+                        <inv:homeCurrency>
+                                                                                    <typ:priceNone>4900</typ:priceNone>
+                                                                                        <typ:round><typ:priceRound>0</typ:priceRound></typ:round>
+                </inv:homeCurrency>
+                </inv:invoiceSummary>
+    </inv:invoice>
+</dat:dataPackItem>
+<dat:dataPackItem id="2016000204" version="2.0">
+    <inv:invoice version="2.0">
+        <inv:invoiceHeader>
+            <inv:invoiceType>issuedAdvanceInvoice</inv:invoiceType>
+            <inv:number>
+                <typ:numberRequested>2016000204</typ:numberRequested>
+            </inv:number>
+                            <inv:paymentType>
+                    <typ:paymentType>draft</typ:paymentType>
+                </inv:paymentType>
+                        <inv:numberOrder></inv:numberOrder>
+            <inv:symVar>2016000204</inv:symVar>
+            <inv:date>2016-10-03</inv:date>
+                        <inv:dateDue>2016-10-17</inv:dateDue>
+            <inv:partnerIdentity>
+                <typ:address>
+                    <typ:company>Hana Hamšíková</typ:company>
+                    <typ:name>Mateřská škola Kostelní</typ:name>
+                    <typ:city>Praha 7</typ:city>
+                    <typ:street>Kostelní  7/37</typ:street>
+                    <typ:zip>17000</typ:zip>
+                    <typ:country>
+                        <typ:ids>CZE</typ:ids>
+                    </typ:country>
+                    <typ:ico>70886253</typ:ico>
+                    <typ:dic></typ:dic>
+                </typ:address>
+                            </inv:partnerIdentity>
+                    </inv:invoiceHeader>
+                                <inv:invoiceDetail>
+                                    <inv:invoiceItem>
+                        <inv:text>Akční balíček v hodnotě 6 500 Kč.</inv:text>
+                        <inv:quantity>1</inv:quantity>
+                        <inv:unit>ks</inv:unit>
+                        <inv:payVAT>true</inv:payVAT>
+                                                                        <inv:homeCurrency>
+                                                            <typ:unitPrice>4900</typ:unitPrice>
+                                <typ:price>4900</typ:price>
+                                                    </inv:homeCurrency>
+                                                    <inv:stockItem>
+                                                                <typ:stockItem>
+                                    <typ:ids>00005</typ:ids>
+                                </typ:stockItem>
+                            </inv:stockItem>
+                            <inv:code>00005</inv:code>
+                                            </inv:invoiceItem>
+                            </inv:invoiceDetail>
+                <inv:invoiceSummary>
+            <inv:roundingDocument>math2one</inv:roundingDocument>
+                        <inv:homeCurrency>
+                                                                                    <typ:priceNone>4900</typ:priceNone>
+                                                                                        <typ:round><typ:priceRound>0</typ:priceRound></typ:round>
+                </inv:homeCurrency>
+                </inv:invoiceSummary>
+    </inv:invoice>
+</dat:dataPackItem>
+</dat:dataPack>
